@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.container {
+  width: 100vw;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  background-color: #ff7978;
+  background-image: url("images/bg-intro-desktop.png");
+  padding: 4% 10% 8% 10%;
+}
+
+.text-div {
+  text-align: left;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 7%;
+  padding-right: 2%;
+}
+
+.text-head {
+  padding-right: 15%;
+  font-size: 40px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-button {
+  background-color: #5d54a3;
+  color: #fff;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  margin-bottom: 4%;
+  font-size: 16px;
+  box-shadow: 0 30 5% 2% #cc6470;
+  border-radius: 4px;
+  border-bottom: 6px solid #d96767;
+  font-weight: 200;
+}
+
+.top-btn-span {
+  font-weight: 800;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 7% 6% 1% 6%;
+  border-radius: 10px;
+  border-bottom: 6px solid #d96767;
+}
+
+.form-input {
+  border: 0.5px solid #dbdbdb;
+  width: 98%;
+  margin: 2%;
+  padding: 4%;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #000;
+}
+
+.inForm-button {
+  background-color: #37cc8a;
+  border-bottom: 5px solid #63b892;
+  color: #fff;
+  width: 98%;
+  padding: 3%;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 1%;
+}
+
+.inForm-button:hover {
+  background-color: #77e2b4;
+}
+
+.conditions-para {
+  padding: 5%;
+  color: #dad9de;
+  text-align: center;
+}
+
+.terms-span {
+  color: #ff7978;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .text-head,
+  .text-para1,
+  .text-para2 {
+    padding: 0;
+  }
+
+  .text-div {
+    text-align: center;
+    padding: 12% 8%;
+  }
+
+  .top-button {
+    padding: 5% 8%;
+  }
+
+  .form-div {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
