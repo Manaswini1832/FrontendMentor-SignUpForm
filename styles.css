@@ -139,4 +139,8 @@ body {
     padding-left: 8%;
     padding-right: 8%;
   }
+  
+  .form-input{
+    margin:3%;
+  }
 }
