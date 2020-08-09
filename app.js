@@ -63,6 +63,6 @@ function checkEmptyPword() {
   } else {
     passwordError.classList.add("none-display");
     password.classList.remove("error-bg");
-    password.classList.add("red-border");
+    password.classList.remove("red-border");
   }
 }
