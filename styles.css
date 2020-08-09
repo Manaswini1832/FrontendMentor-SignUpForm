@@ -71,18 +71,42 @@ body {
   padding: 7% 6% 1% 6%;
   border-radius: 10px;
   border-bottom: 6px solid #d96767;
+  text-align: right;
+  position: relative;
 }
 
 .form-input {
   border: 0.5px solid #dbdbdb;
   width: 98%;
-  margin: 2%;
+  margin: 2% 2% 0 2%;
   padding: 4%;
   font-family: inherit;
   font-size: 16px;
   border-radius: 4px;
   font-weight: 600;
   color: #000;
+  position: relative;
+}
+
+.red-border {
+  border: 2px solid red;
+}
+
+.error-bg {
+  background-image: url("./images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: 200;
+  margin-bottom: 2%;
+}
+
+.none-display {
+  display: none;
 }
 
 .inForm-button {
@@ -94,7 +118,8 @@ body {
   text-align: center;
   font-size: 16px;
   border-radius: 4px;
-  margin-top: 1%;
+  margin-top: 3%;
+  cursor: pointer;
 }
 
 .inForm-button:hover {
@@ -139,9 +164,9 @@ body {
     padding-left: 8%;
     padding-right: 8%;
   }
-  
-  .form-input{
-    margin:5%;
-    font-size:12px;
+
+  .form-input {
+    margin: 5%;
+    font-size: 12px;
   }
 }
