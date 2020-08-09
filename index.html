@@ -38,14 +38,40 @@
             </p>
           </div>
           <form class="form" action="/">
-            <input class="form-input" type="text" placeholder="First Name" />
-            <input class="form-input" type="text" placeholder="Last Name" />
             <input
-              class="form-input"
+              class="form-input fname"
+              type="text"
+              placeholder="First Name"
+              autocomplete="off"
+            />
+            <p class="error no-fname none-display">
+              First name cannot be empty
+            </p>
+            <input
+              class="form-input lname"
+              type="text"
+              placeholder="Last Name"
+              autocomplete="off"
+            />
+            <p class="error no-lname none-display">Last name cannot be empty</p>
+            <input
+              class="form-input email"
               type="email"
               placeholder="Email Address"
+              autocomplete="off"
             />
-            <input class="form-input" type="password" placeholder="Password" />
+            <p class="error email-regex-error none-display">
+              Looks like this is not an email
+            </p>
+            <input
+              class="form-input password input-password"
+              type="password"
+              placeholder="Password"
+              autocomplete="off"
+            />
+            <p class="error no-password none-display">
+              Password cannot be empty
+            </p>
             <div class="inForm-button">
               <p>CLAIM YOUR FREE TRIAL</p>
             </div>
@@ -57,5 +83,6 @@
         </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
